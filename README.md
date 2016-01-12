@@ -1,1 +1,11 @@
-# from_dependence_to_causation
+# From dependence to causation
+
+## David Lopez-Paz
+
+Machine learning is the science of discovering statistical dependencies in data, and the use of those dependencies to perform predictions. During the last decade, machine learning has made spectacular progress, surpassing human performance in complex tasks such as object recognition, car driving, and computer gaming. However, the central role of prediction in machine learning avoids progress towards general-purpose artificial intelligence. In this thesis, we argue that causal inference is a fundamental component of human intelligence, yet ignored by learning algorithms.
+
+Causal inference is the problem of uncovering the cause-effect relationships between the variables of a data generating system. Causal structures provide understanding about how these systems behave under changing, unseen environments. In turn, knowledge about these causal dynamics allows to answer “what if” questions, describing the potential responses of the system under hypothetical manipulations and interventions. Thus, understanding cause and effect is one step from machine learning towards machine reasoning and machine intelligence. But, currently available causal inference algorithms operate in specific regimes, and rely on assumptions that are difficult to verify in practice.
+
+This thesis advances the art of causal inference in three different ways. First, we develop a framework for the study of statistical dependence based on copulas (models NPRV and GPRV) and random features (models RCA and RDC). Second, we build on this framework to interpret the problem of causal inference as the task of distribution classification. This new interpretation conceives a family of new causal inference algorithms (model RCC), which are widely applicable under mild learning theoretical assumptions. Third, we showcase RCC to discover causal structures in convolutional neural network features. All of the algorithms presented in this thesis are applicable to big data, exhibit strong theoretical guarantees, and achieve state-of-the-art performance in a variety of real-world benchmarks.
+
+This thesis closes with a discussion about the state-of-affairs in machine learning research, and a review about the current progress on novel ideas such as machines-teaching-machines paradigms, theory of nonconvex optimization, and the supervision continuum. We have tried to provide our exposition with a philosophical flavour, as well as to make it a self-contained book.
